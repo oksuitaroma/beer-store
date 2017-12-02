@@ -1,0 +1,29 @@
+.nav-wrapper {
+background-color: #ffc600;
+}
+.nav-wrapper a {
+color: black;
+}
+.carousel .carousel-item>img {
+    position: absolute;
+    left: 0 ;
+}
+
+.box {
+    position: relative;
+    font-size: 32px; 
+    
+}
+.logImage{
+    width: 110px;
+    height: 110px;
+}
+
+.full-width{
+    height: 978px;
+}
+.carousel .indicators .indicator-item {
+    height: 15px;
+    width: 15px;
+    background-color: grey;
+}
