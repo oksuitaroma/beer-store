@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -15,22 +15,21 @@
     <nav>
       <div class="nav-wrapper ">
         <div class="container"> 
-        <a href="#!" class="brand-logo" > <img class="logImage" src="img\log.png" alt=""> </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
             <li><a href="#">Пиво</a></li>
             <li><a href="#">Закуски</a></li>
             <li><a href="#">Інші товари</a></li>
             <li><a href="#">Про нас</a></li>
             <li><a href="#">Контакти</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
             <li><a href="#">Пиво</a></li>
             <li><a href="#">Закуски</a></li>
             <li><a href="#">Інші товари</a></li>
             <li><a href="#">Про нас</a></li>
             <li><a href="#">Контакти</a></li>
-        </ul>
+          </ul>
       </div>
       </div>
     </nav>
@@ -75,25 +74,25 @@
           <div class="card hoverable average">
             <div class="card-image">
               <img src="img\1.jpg">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Пиво</span>
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#">Докладніше</a>
             </div>
           </div>
         </div>
     </li>
-
+    
     <li class="" style="transform: translateX(0px); opacity: 0;">
         <div class="col s12 m6">
           <div class="card hoverable average">
             <div class="card-image">
               <img src="img\2.jpg">
-              <span class="card-title">Card Title</span>
+              <span class="card-title">Закуски</span>
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -116,7 +115,7 @@
                   <div class="card hoverable average">
                     <div class="card-image">
                       <img src="img\3.jpg">
-                      <span class="card-title">Card Title</span>
+                      <span class="card-title">Інші товари</span>
                     </div>
                     <div class="card-content">
                       <p>I am a very simple card. I am good at containing small bits of information.
@@ -134,7 +133,7 @@
                   <div class="card hoverable average">
                     <div class="card-image">
                       <img src="img\4.jpg">
-                      <span class="card-title">Card Title</span>
+                      <span class="card-title">Контакти</span>
                     </div>
                     <div class="card-content">
                       <p>I am a very simple card. I am good at containing small bits of information.
@@ -149,8 +148,13 @@
           </ul>
         </div>
   
-  <img id="image-test" class="responsive-img" src="img\2.jpg" style="opacity: 0;">
+        <h3>My Google Maps Demo</h3>
+        <div id="map"></div>
  </div>
+
+<div class="container">
+  
+</div>
         
 
 
@@ -159,6 +163,8 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
     <script> $(document).ready(function(){
       $(".button-collapse").sideNav();
       $('.carousel.carousel-slider').carousel(
@@ -172,22 +178,21 @@
     </script>
     <script type="text/javascript">
     var options = [
-        {selector: '#staggered-test1', offset: 500, callback: function(el) {
+        {selector: '#staggered-test1', offset: 200, callback: function(el) {
           Materialize.showStaggeredList($(el));
           $("#call-1").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 1000});
         } },
-        {selector: '#staggered-test2', offset: 300, callback: function(el) {
+        {selector: '#staggered-test2', offset: 200, callback: function(el) {
           Materialize.showStaggeredList($(el));
           $("#call-2").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 1000});
         } },
-        
-        {selector: '#image-test', offset: 500, callback: function(el) {
-          Materialize.fadeInImage($(el));
-          $("#call-5").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 700});
-        } }
-      ];
+        ];
       Materialize.scrollFire(options);
     
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc2znCc74szpfQy1yJSAl5JQutXua7iTU&callback=initMap">
     </script>
   </body>
 </html>
