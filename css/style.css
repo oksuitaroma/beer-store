@@ -3,6 +3,8 @@ background-color: #ffc600;
 }
 .nav-wrapper a {
 color: black;
+font-size: 16px; 
+
 }
 .carousel .carousel-item>img {
     position: absolute;
@@ -11,13 +13,15 @@ color: black;
 }
 
 .box {
-    position: relative;
-    font-size: 32px; 
-    
+    position: relative;    
 }
+.carousel.carousel-slider .carousel-item p {
+    font-size: 27px;   
+}
+
 .logImage{
-    width: 110px;
-    height: 110px;
+    width: 250px;
+    height: 70px;
 }
 
 .full-width{
