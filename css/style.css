@@ -6,23 +6,47 @@ color: black;
 font-size: 16px; 
 
 }
+#mobile-demo  a :hover {
+    background-color:aqua;
+    opacity: 0.85 ;
+
+}
+
+
+
 .carousel .carousel-item>img {
     position: absolute;
     height: 90vh;
     left: 0 ;
 }
-
+@media only screen and (max-width : 600px){
+    .carousel .carousel-item>img {
+        
+        height: 50vh;
+        
+    }
+}
 .box {
     position: relative;    
 }
+
 .carousel.carousel-slider .carousel-item p {
     font-size: 27px;   
 }
+
 
 .logImage{
     width: 250px;
     height: 70px;
 }
+
+@media only screen and (max-width : 600px) {
+    .logImage{
+        width: 200px;
+        height: 55px;
+    }
+}
+    
 
 .full-width{
     height: 978px;
@@ -32,29 +56,38 @@ font-size: 16px;
     width: 15px;
     background-color: grey;
 }
+
+.map_text{
+    margin: 0 auto;
+}
+
 #map {
     height: 400px;
-    width: 100%;
-   }
+    width: 90%;
+    margin: 0 auto;
+}
+
 .contact{
     margin-top: 40px;
     margin-bottom: 15px;
-    height: 200px;
+    height: 220px;
     padding: 30px;
 }
+
 .contact span {
     font-weight:bold;
 }
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    }
+}
 
-  main {
-    flex: 1 0 auto;
-  }
-  .page-footer{
-    background-color: #ffc600;
-  }
+main {
+   flex: 1 0 auto;
+}
+.page-footer{
+   background-color: #ffc600;
+}
   
