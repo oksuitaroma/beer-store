@@ -85,7 +85,7 @@
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-action">
-              <a href="#">Докладніше</a>
+              <a href="beer.html">Докладніше</a>
             </div>
           </div>
         </div>
@@ -216,10 +216,13 @@
       $('.carousel.carousel-slider').carousel(
           {fullWidth: true,
            indicators: true,
-           duration: 300,
-          
-          
+           duration: 300,          
           });
+    autoplay()   
+    function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+ }
       });
     </script>
     <script type="text/javascript">
