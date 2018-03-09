@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <!--Import Google Icon Font-->
@@ -9,6 +10,8 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Beer</title>
+    
   </head>
 
   <body>
@@ -16,7 +19,6 @@
       <div class="navbar-fixed">
             <nav>
               <div class="nav-wrapper ">
-                <div class="container">
                   <a href="Index.html" class="brand-logo" > <img class="logImage" src="img\Logotype.png" alt=""> </a>
                   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down">
@@ -34,57 +36,71 @@
                     <li><a href="#">Контакти</a></li>
                   </ul>
               </div>
-              </div>
+              
             </nav>
-            </div> 
-   </header>  
+        </div> 
+   </header> 
+   <p></p> 
+   <div class="controls">
+      <button type="button" class="control" data-filter="all">Все</button>
+      <button type="button" class="control" data-toggle=".svitle">Світле</button>
+      <button type="button" class="control" data-toggle=".temne">Темне</button>
+      <button type="button" class="control" data-toggle=".nefiltrovane">Нефільтроване</button>
+    </div>
 
   <div class="container">
-    <h1> BEER </h1> 
-  <div class="row"> 
+    <h1> BEER </h1>   
+    <div class="row"> 
           <div class="col s12 m6 l4">
-            <div class="card ">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="img/пиво/Cherry Pussy.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Cherry Pussy<i class="material-icons right">more_vert</i></span>
-                <p> Світле фільтроване  </p>
-                <p> 40.00 грн за 1л </p>
- 
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Назва пива<i class="material-icons right">close</i></span>
-                <p> Новинка від нашої броварні. Світлий пшеничний ель зварений з додаванням вишні, вирощенної у власному садку. 
-                  Неперевершений аромат та вишневий післясмак, який пом'якшує хмільову гірчинку - відмінне поєднання. </p>
-                <p> <b>Вид:</b> Світле фільтроване  </p>
-                <p> <b>Ціна:</b> 40.00 грн за 1л </p>
-                <p> <b>Міцність:</b> 4.8 % </p>
-              </div>
-            </div>
-        </div>
-    
-        <div class="col s12 m6 l4">
-            <div class="card">
+            <div class="mix svitle">
+              <div class="card ">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/пиво/Coffee Stout.jpg">
+                  <img class="activator" src="img/пиво/Cherry Pussy.jpg">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Coffee Stout<i class="material-icons right">more_vert</i></span>
-                  <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <span class="card-title activator grey-text text-darken-4">  Cherry Pussy<i class="material-icons right">more_vert</i></span>
+                  <p> Світле </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 52.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Coffee Stout<i class="material-icons right">close</i></span>
-                  <p> Кавовий стаут – темний міцний сорт елю, який спочатку варився в Ірландії як різновид портеру, зараз – один з найбільш популярних видів пива в Великобританії та Ірландії. 
-                    Приготований з використанням паленого солоду, отриманого шляхом смаження зерна ячменю, з додаванням карамельного солоду, що забезпечує гіркуватий кавовий смак з шоколадними нотками. </p>
+                  <span class="card-title grey-text text-darken-4">Cherry Pussy<i class="material-icons right">close</i></span>
+                  <p> <b>Україна, Бровари</b>  </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
-                  <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> <b>Щільність:</b> 15 % </p>
+                  <p> <b>Міцність:</b> 5.5 % </p>
+                  <p> Новинка від нашої броварні. Світлий пшеничний ель зварений з додаванням вишні, вирощенної у власному садку. 
+                    Неперевершений аромат та вишневий післясмак, який пом'якшує хмільову гірчинку - відмінне поєднання. </p>
+                  
                 </div>
               </div>
+          </div>
+      </div>
+      <div class="mix temne">
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/пиво/Coffee Stout.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Coffee Stout<i class="material-icons right">more_vert</i></span>
+                      <p> Темне  </p>
+                      <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
+       
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Coffee Stout<i class="material-icons right">close</i></span>
+                      <p> <b>Вид:</b> Світле фільтроване  </p>
+                      <p> <b>Ціна:</b> 40.00 грн за 1л </p>
+                      <p> <b>Міцність:</b> 4.8 % </p>
+                      <p> Кавовий стаут – темний міцний сорт елю, який спочатку варився в Ірландії як різновид портеру, зараз – один з найбільш популярних видів пива в Великобританії та Ірландії. 
+                        Приготований з використанням паленого солоду, отриманого шляхом смаження зерна ячменю, з додаванням карамельного солоду, що забезпечує гіркуватий кавовий смак з шоколадними нотками. </p>
+                     </div>
+                  </div>
+            </div>
         </div>
+        
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -93,16 +109,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">India Pale Ale<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">India Pale Ale<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -113,40 +130,42 @@
                   <img class="activator" src="img/пиво/Berduchivske-Pshenichne.jpg">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Бердич Пшеничне<i class="material-icons right">more_vert</i></span>
+                  <span class="card-title activator grey-text text-darken-4">Бердичівське Пшеничне<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Бердичівське Пшеничне<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
 
         <div class="col s12 m6 l4">
             <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+                <div class="card-image ">
                   <img class="acivatotr" src="img/пиво/Bershgloss.jpg">
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Бергшлосс<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Бергшлосс<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -158,16 +177,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Бланш де Київ<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Бланш де Київ<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -180,16 +200,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">ДойчХоф Саксонське<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">ДойчХоф Саксонське<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -202,16 +223,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Душа Пивовара<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Душа Пивовара<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -224,16 +246,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Zeman Dunkel<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Zeman Dunkel<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -246,16 +269,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Опілля Корифей<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Опілля Корифей<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -268,16 +292,17 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Пивний Гном Біле<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Пивний Гном Біле<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
@@ -290,21 +315,21 @@
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Пивний Гном Бурштинове<i class="material-icons right">more_vert</i></span>
                   <p> Світле фільтроване  </p>
-                  <p> 40.00 грн за 1л </p>
+                  <p> <b>Ціна за літр :</b> <span class="Price"> 40.00 грн</span> </p>
    
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Пивний Гном Бурштинове<i class="material-icons right">close</i></span>
-                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
-                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
                   <p> <b>Вид:</b> Світле фільтроване  </p>
                   <p> <b>Ціна:</b> 40.00 грн за 1л </p>
                   <p> <b>Міцність:</b> 4.8 % </p>
+                  <p> IPA (India Pale Ale) – це британський вид світлого елю з більш сильним охмелінням, ніж у звичайного. Він з’явився в Англії в XIX віці і виготовляли його спеціально для підданих імперії, котрі страждали на територіях Індії від поганої води та ностальгії за рідною домівкою. Пиво їм возили і до появи IPA, але саме цей хмільний та міцний ель особливо добре витримувався в процесі транспортування. 
+                    На сьогодні це один з найбільш популярних сортів пива на заході, який став поштовхом для розвитку крафтового пивоваріння у світі. </p>
+                  
                 </div>
               </div>
         </div>
-       
-  </div>
+    </div>
   </div>
   
 
@@ -348,36 +373,21 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/mixitup.min.js"></script>
     
-    <script> $(document).ready(function(){
-      $(".button-collapse").sideNav();
-      $('.carousel.carousel-slider').carousel(
-          {fullWidth: true,
-           indicators: true,
-           duration: 300,
-          
-          
-          });
-      });
-    </script>
-    <script type="text/javascript">
-    var options = [
-        {selector: '#staggered-test1', offset: 200, callback: function(el) {
-          Materialize.showStaggeredList($(el));
-          $("#call-1").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 1000});
-        } },
-        {selector: '#staggered-test2', offset: 200, callback: function(el) {
-          Materialize.showStaggeredList($(el));
-          $("#call-2").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 1000});
-        } },
-        ];
-      Materialize.scrollFire(options);
+            <script>
+                var containerEl = document.querySelector('.container');
     
-    </script>
+                var mixer = mixitup(containerEl, {
+                    controls: {
+                        toggleLogic: 'and'
+                    }
+                });
+            </script>
+    
+  
 
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc2znCc74szpfQy1yJSAl5JQutXua7iTU&callback=initMap">
-    </script>
+    
   </body>
 </html>
       

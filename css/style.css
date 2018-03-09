@@ -3,7 +3,8 @@ background-color: #ffc600;
 }
 .nav-wrapper a {
 color: black;
-font-size: 16px; 
+font-size: 17px; 
+font-weight: 600;
 
 }
 #mobile-demo  a :hover {
@@ -11,12 +12,16 @@ font-size: 16px;
     opacity: 0.85 ;
 
 }
+.container{
+    width: 90%;
+} 
 
 
 
 .carousel .carousel-item>img {
     position: absolute;
-    height: 90vh;
+    overflow: hidden;
+    height: 91vh;
     left: 0 ;
 }
 @media only screen and (max-width : 600px){
@@ -90,6 +95,10 @@ main {
 .page-footer{
    background-color: #ffc600;
 }
+.card{
+    max-height: 413px;
+}
+
 .card .card-image {
     height: 300px;
     display: flex;
@@ -99,9 +108,38 @@ main {
 .card .card-image img {
     object-fit: scale-down;
     max-height: 300px;
-    max-width: 98%;
+    max-width: 99%;
      
 }
+.card .card-content  {
+    font-family: Verdana;
+    
+}
+.card .card-content .card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;   
+}
+.card .card-reveal .card-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;   
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(img/пиво/Poltava_logo.png);
+}
+.Price {
+    color:  #ffc600;
+    padding: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    float: right;
+    border: 3px #ffee00 solid;
+    border-radius: 5px;
+    
 
-
+} 
   
